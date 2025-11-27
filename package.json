@@ -1,0 +1,17 @@
+{
+  "name": "test-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "yarn build && yarn serve",
+    "build": "tsc",
+    "serve": "lite-server",
+    "dev": "yarn build && yarn serve",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.3"
+  }
+}
